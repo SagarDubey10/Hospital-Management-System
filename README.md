@@ -33,4 +33,4 @@ The Hospital Management System (HMS) is a web-based application that helps strea
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/hospital-management-system.git
+   git clone https://github.com/SagarDubey10/Hospital-Management-System.git
