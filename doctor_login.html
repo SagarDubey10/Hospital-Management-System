@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard</title>
+    <link rel="stylesheet" href="doctor_login.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, Dr.Sagar Dubey</h1>
+    </header>
+    <main>
+        <section id="appointments">
+            <h2>Upcoming Appointments</h2>
+            <ul>
+                <li>
+                    <strong>Date:</strong> January 1, 2024<br>
+                    <strong>Time:</strong> 10:00 AM<br>
+                    <strong>Patient:</strong> Patient 1
+                </li>
+                <li>
+                    <strong>Date:</strong> January 2, 2024<br>
+                    <strong>Time:</strong> 11:00 AM<br>
+                    <strong>Patient:</strong> Patient 2
+                </li>
+            </ul>
+        </section>
+        <section id="patients">
+            <h2>My Patients</h2>
+            <ul>
+                <li><a href="#" class="patient-link" data-src="Blood_Report.png">Patient 1</a></li>
+                <li><a href="#" class="patient-link" data-src="Patient2_Details.png">Patient 2</a></li>
+            </ul>
+        </section>
+        <section id="patient-details">
+            <!-- Scanned patient details image will be displayed here -->
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="legal-info">
+                <p>&copy; 2024 Your Clinic. All rights reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="doctor_login.js"></script>
+</body>
+</html>
